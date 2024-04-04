@@ -1,0 +1,31 @@
+.content {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__left {
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.splide {
+    max-width: 400px;
+}
+
+.splide__slide {
+    background-color: grey;
+    color: black;
+    max-width: 150px;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
